@@ -1,0 +1,346 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/alex/verilog_codes/processor_project_pipeline/simulation/modelsim
+vadder_pp
+Z1 !s110 1621893016
+!i10b 1
+!s100 03[06K]MOD4h;@R89g_KA2
+I_3g;Fa:PgW?GX9]M]HVVD1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1620570584
+8/home/alex/verilog_codes/processor_project_pipeline/adder_pp.v
+F/home/alex/verilog_codes/processor_project_pipeline/adder_pp.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1621893016.000000
+!s107 /home/alex/verilog_codes/processor_project_pipeline/adder_pp.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/alex/verilog_codes/processor_project_pipeline|/home/alex/verilog_codes/processor_project_pipeline/adder_pp.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+/home/alex/verilog_codes/processor_project_pipeline
+Z7 tCvgOpt 0
+vAL
+R1
+!i10b 1
+!s100 iYO6FLF4MIcX0h@M_T`zL1
+I?OZY@ZJeGHf25d6DSmLNa0
+R2
+R0
+w1620576366
+8/home/alex/verilog_codes/processor_project_pipeline/AL.v
+F/home/alex/verilog_codes/processor_project_pipeline/AL.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 /home/alex/verilog_codes/processor_project_pipeline/AL.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/alex/verilog_codes/processor_project_pipeline|/home/alex/verilog_codes/processor_project_pipeline/AL.v|
+!i113 1
+R5
+R6
+R7
+n@a@l
+valu_pp
+R1
+!i10b 1
+!s100 6AV4XPXgH9hM`OQN9QCR;0
+IhJmnQbZbBLhbC8L]?Z[]Z2
+R2
+R0
+w1620571427
+8/home/alex/verilog_codes/processor_project_pipeline/alu_pp.v
+F/home/alex/verilog_codes/processor_project_pipeline/alu_pp.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 /home/alex/verilog_codes/processor_project_pipeline/alu_pp.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/alex/verilog_codes/processor_project_pipeline|/home/alex/verilog_codes/processor_project_pipeline/alu_pp.v|
+!i113 1
+R5
+R6
+R7
+vcontroller_pp
+R1
+!i10b 1
+!s100 k32Cje]LXIf;`nXfd:FkY1
+Ib8XE@:V5XShdn:E7oLFcH1
+R2
+R0
+w1621720678
+8/home/alex/verilog_codes/processor_project_pipeline/controller_pp.v
+F/home/alex/verilog_codes/processor_project_pipeline/controller_pp.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 /home/alex/verilog_codes/processor_project_pipeline/controller_pp.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/alex/verilog_codes/processor_project_pipeline|/home/alex/verilog_codes/processor_project_pipeline/controller_pp.v|
+!i113 1
+R5
+R6
+R7
+vDM_pp
+R1
+!i10b 1
+!s100 CXLC2N;81JW:mU1Z?ON8_1
+IzW1F9VgEjBC;ojfNQ5S0d3
+R2
+R0
+w1621882610
+8/home/alex/verilog_codes/processor_project_pipeline/DM_pp.v
+F/home/alex/verilog_codes/processor_project_pipeline/DM_pp.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 /home/alex/verilog_codes/processor_project_pipeline/DM_pp.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/alex/verilog_codes/processor_project_pipeline|/home/alex/verilog_codes/processor_project_pipeline/DM_pp.v|
+!i113 1
+R5
+R6
+R7
+n@d@m_pp
+vflag_pp
+R1
+!i10b 1
+!s100 ?;^LPNSmzCDiBMU40hhK=0
+IC<2G8KX0Md<;NQU6aXF9L1
+R2
+R0
+w1620572254
+8/home/alex/verilog_codes/processor_project_pipeline/flag_pp.v
+F/home/alex/verilog_codes/processor_project_pipeline/flag_pp.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 /home/alex/verilog_codes/processor_project_pipeline/flag_pp.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/alex/verilog_codes/processor_project_pipeline|/home/alex/verilog_codes/processor_project_pipeline/flag_pp.v|
+!i113 1
+R5
+R6
+R7
+vhazard_control_pp
+R1
+!i10b 1
+!s100 KNY<:=<6[QUbhQVnjD?nI0
+I9`@4=eeUdNb2zhbhJYFCZ1
+R2
+R0
+w1621890895
+8/home/alex/verilog_codes/processor_project_pipeline/hazard_control_pp.v
+F/home/alex/verilog_codes/processor_project_pipeline/hazard_control_pp.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 /home/alex/verilog_codes/processor_project_pipeline/hazard_control_pp.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/alex/verilog_codes/processor_project_pipeline|/home/alex/verilog_codes/processor_project_pipeline/hazard_control_pp.v|
+!i113 1
+R5
+R6
+R7
+vIM_pp
+R1
+!i10b 1
+!s100 Uo7SmDXUHzLm=K=c:liBh2
+Ihdfl0[lIQ]59i2H=3le3z0
+R2
+R0
+w1621881605
+8/home/alex/verilog_codes/processor_project_pipeline/IM_pp.v
+F/home/alex/verilog_codes/processor_project_pipeline/IM_pp.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 /home/alex/verilog_codes/processor_project_pipeline/IM_pp.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/alex/verilog_codes/processor_project_pipeline|/home/alex/verilog_codes/processor_project_pipeline/IM_pp.v|
+!i113 1
+R5
+R6
+R7
+n@i@m_pp
+vmod0
+R1
+!i10b 1
+!s100 LoWH;9bH0Fh1Q:DN0jkBW1
+I?@Q8`:]kPe4j>ZU;k7L?G3
+R2
+R0
+w1621720439
+8/home/alex/verilog_codes/processor_project_pipeline/mod0.v
+F/home/alex/verilog_codes/processor_project_pipeline/mod0.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 /home/alex/verilog_codes/processor_project_pipeline/mod0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/alex/verilog_codes/processor_project_pipeline|/home/alex/verilog_codes/processor_project_pipeline/mod0.v|
+!i113 1
+R5
+R6
+R7
+vmod1
+R1
+!i10b 1
+!s100 C0<g@FbX?SoBO9A:Ii3VN0
+I]Vh6_nkUgo]bK]WWD>a6O2
+R2
+R0
+w1620573010
+8/home/alex/verilog_codes/processor_project_pipeline/mod1.v
+F/home/alex/verilog_codes/processor_project_pipeline/mod1.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 /home/alex/verilog_codes/processor_project_pipeline/mod1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/alex/verilog_codes/processor_project_pipeline|/home/alex/verilog_codes/processor_project_pipeline/mod1.v|
+!i113 1
+R5
+R6
+R7
+vpp_pipeline_tb1
+R1
+!i10b 1
+!s100 eDiReDfZcI5cXTQfO2;Rc0
+IncoTREhfj<29aV5A0D^571
+R2
+R0
+w1621893008
+8/home/alex/verilog_codes/processor_project_pipeline/pp_pipeline_tb1.v
+F/home/alex/verilog_codes/processor_project_pipeline/pp_pipeline_tb1.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 /home/alex/verilog_codes/processor_project_pipeline/pp_pipeline_tb1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/alex/verilog_codes/processor_project_pipeline|/home/alex/verilog_codes/processor_project_pipeline/pp_pipeline_tb1.v|
+!i113 1
+R5
+R6
+R7
+vprocessor_project_pipeline
+R1
+!i10b 1
+!s100 9oeNoYl=JLk=1<[KJ1QN03
+IQcbL0g<DOmgzogYGgck=l0
+R2
+R0
+w1621892108
+8/home/alex/verilog_codes/processor_project_pipeline/processor_project_pipeline.v
+F/home/alex/verilog_codes/processor_project_pipeline/processor_project_pipeline.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 /home/alex/verilog_codes/processor_project_pipeline/processor_project_pipeline.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/alex/verilog_codes/processor_project_pipeline|/home/alex/verilog_codes/processor_project_pipeline/processor_project_pipeline.v|
+!i113 1
+R5
+R6
+R7
+vRF_pp
+R1
+!i10b 1
+!s100 AY6n05CXVKNNSJK^XTD:42
+I=S4og4FD6I2SDH5jjE5c?1
+R2
+R0
+w1621690672
+8/home/alex/verilog_codes/processor_project_pipeline/RF_pp.v
+F/home/alex/verilog_codes/processor_project_pipeline/RF_pp.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 /home/alex/verilog_codes/processor_project_pipeline/RF_pp.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/alex/verilog_codes/processor_project_pipeline|/home/alex/verilog_codes/processor_project_pipeline/RF_pp.v|
+!i113 1
+R5
+R6
+R7
+n@r@f_pp
+vSE516
+R1
+!i10b 1
+!s100 [joKJ]PJ@VNfKKd;4=^5^1
+I?L3kI`LUe]@kbaVM?><[@1
+R2
+R0
+w1620576141
+8/home/alex/verilog_codes/processor_project_pipeline/SE516.v
+F/home/alex/verilog_codes/processor_project_pipeline/SE516.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 /home/alex/verilog_codes/processor_project_pipeline/SE516.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/alex/verilog_codes/processor_project_pipeline|/home/alex/verilog_codes/processor_project_pipeline/SE516.v|
+!i113 1
+R5
+R6
+R7
+n@s@e516
+vSE816
+R1
+!i10b 1
+!s100 OUHa>aX3doBDH:gRN9:oP1
+IJVjb3TY;=Yo[PGVTd^Imj1
+R2
+R0
+w1620576238
+8/home/alex/verilog_codes/processor_project_pipeline/SE816.v
+F/home/alex/verilog_codes/processor_project_pipeline/SE816.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 /home/alex/verilog_codes/processor_project_pipeline/SE816.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/alex/verilog_codes/processor_project_pipeline|/home/alex/verilog_codes/processor_project_pipeline/SE816.v|
+!i113 1
+R5
+R6
+R7
+n@s@e816
