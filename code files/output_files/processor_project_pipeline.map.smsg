@@ -1,0 +1,3 @@
+Warning (10273): Verilog HDL warning at processor_project_pipeline.v(147): extended using "x" or "z" File: /home/alex/verilog_codes/processor_project_pipeline/processor_project_pipeline.v Line: 147
+Warning (10273): Verilog HDL warning at processor_project_pipeline.v(162): extended using "x" or "z" File: /home/alex/verilog_codes/processor_project_pipeline/processor_project_pipeline.v Line: 162
+Warning (10268): Verilog HDL information at processor_project_pipeline.v(214): always construct contains both blocking and non-blocking assignments File: /home/alex/verilog_codes/processor_project_pipeline/processor_project_pipeline.v Line: 214
