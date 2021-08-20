@@ -1,0 +1,3 @@
+module processor_project_pipeline(clk,cy,z);
+input clk;
+output cy,z;

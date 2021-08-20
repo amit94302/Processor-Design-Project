@@ -1,0 +1,14 @@
+module hazard_contol_pp(IF_ID_IM_d,ID_EX_IM_d,EX_MEM_IM_d,MEM_WB_IM_d,RF_d1_select,RF_d2_select);
+input [15:0] IF_ID_IM_d,ID_EX_IM_d,EX_MEM_IM_d,MEM_WB_IM_d;
+output reg [3:0] RF_d1_select,RF_d2_select;
+
+always @(*)// RF_d1
+begin
+if(((ID_EX_IM_d[15:12]==4'b0001)||(ID_EX_IM_d[15:12]==4'b0010))&&((IF_ID_IM_d[15:12]==4'b0001)||(IF_ID_IM_d[15:12]==4'b0000)||(IF_ID_IM_d[15:12]==4'b0010)||(IF_ID_IM_d[15:12]==4'b0101)||(IF_ID_IM_d[15:12]==4'b1100)||(IF_ID_IM_d[15:12]==4'b1101)||(IF_ID_IM_d[15:12]==00001)(IF_ID_IM_d[15:12]==4'b1110)||(IF_ID_IM_d[15:12]==4'b1111))&&(ID_EX_IM_d[5:3]==IF_ID_IM_d[11:9]))
+RF_d1_select=4'b0001;//alu2out first instr ADD,ADC,ADZ,ADL,NDU,NDC,NDZ
+else if(((EX_MEM_IM_d[15:12]==4'b0001)||(EX_MEM_IM_d[15:12]==4'b0010))&&((IF_ID_IM_d[15:12]==4'b0001)||(IF_ID_IM_d[15:12]==4'b0000)||(IF_ID_IM_d[15:12]==4'b0010)||(IF_ID_IM_d[15:12]==4'b0101)||(IF_ID_IM_d[15:12]==4'b1100)||(IF_ID_IM_d[15:12]==4'b1101)||(IF_ID_IM_d[15:12]==00001)(IF_ID_IM_d[15:12]==4'b1110)||(IF_ID_IM_d[15:12]==4'b1111))&&(EX_MEM_IM_d[5:3]==IF_ID_IM_d[11:9]))
+RF_d1_select=4'b0010;//EX_MEM_alu2out
+else if(((MEM_WB_IM_d[15:12]==4'b0001)||(MEM_WB_IM_d[15:12]==4'b0010))&&((IF_ID_IM_d[15:12]==4'b0001)||(IF_ID_IM_d[15:12]==4'b0000)||(IF_ID_IM_d[15:12]==4'b0010)||(IF_ID_IM_d[15:12]==4'b0101)||(IF_ID_IM_d[15:12]==4'b1100)||(IF_ID_IM_d[15:12]==4'b1101)||(IF_ID_IM_d[15:12]==00001)(IF_ID_IM_d[15:12]==4'b1110)||(IF_ID_IM_d[15:12]==4'b1111))&&(MEM_WB_IM_d[5:3]==IF_ID_IM_d[11:9]))
+RF_d1_select=4'b0010;//MEM_WB_alu2out
+else if((ID_EX_IM_d[15:12]==4'b0000)&&((IF_ID_IM_d[15:12]==4'b0001)||(IF_ID_IM_d[15:12]==4'b0000)||(IF_ID_IM_d[15:12]==4'b0010)||(IF_ID_IM_d[15:12]==4'b0101)||(IF_ID_IM_d[15:12]==4'b1100)||(IF_ID_IM_d[15:12]==4'b1101)||(IF_ID_IM_d[15:12]==00001)(IF_ID_IM_d[15:12]==4'b1110)||(IF_ID_IM_d[15:12]==4'b1111))&&(ID_EX_IM_d[8:6]==IF_ID_IM_d[11:9]))
+RF_d1_select=4'b0001;//alu2out ADI
